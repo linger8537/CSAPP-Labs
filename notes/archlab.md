@@ -16,7 +16,7 @@
 unix> make clean;make
 ```
 
-如果仍出错，可能是没装相关的依赖软件，安装 `flex` 和 `bison` 试试。   
+如果仍出错，可能是没装相关的依赖软件，安装 `flex` , 'flex-devel'和 `bison` 试试。   
 这次 lab 分了三个部分： Part A 、B 、C   
 Part A 要求将 C 代码翻译成 Y86-64 ，Part B 要求实现 SEQ 命令，这两部分都为 Part C 做铺垫，Part C 要求修改 PIPE 和 Y86-64 实现程序的优化。     
 
